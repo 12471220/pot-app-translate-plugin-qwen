@@ -1,0 +1,57 @@
+{
+  "id": "plugin.com.pot-app.sc.qwen",
+  "plugin_type": "translate",
+  "icon": "qwen.svg",
+  "display": "Qwen",
+  "homepage": "https://github.com/12471220/pot-app-translate-plugin-qwen",
+  "language": {
+    "auto": "auto",
+    "zh_cn": "zh",
+    "zh_tw": "zh_HANT",
+    "en": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "fr": "fr",
+    "es": "es",
+    "ru": "ru",
+    "de": "de",
+    "it": "it",
+    "tr": "tr",
+    "pt_pt": "pt",
+    "pt_br": "pt",
+    "vi": "vi",
+    "id": "id",
+    "th": "th",
+    "ms": "ms",
+    "ar": "ar",
+    "hi": "hi",
+    "mn_cy": "mn",
+    "mn_mo": "mn",
+    "km": "km",
+    "nb_no": "no",
+    "nn_no": "no",
+    "fa": "fa"
+  },
+  "needs": [
+    {
+      "key": "api_key",
+      "display": "YOUR Qwen api key",
+      "type": "input"
+    },
+    {
+      "key": "model",
+      "display": "model(optional, default is qwen-flash)",
+      "type": "input"
+    },
+    {
+      "key": "base_url",
+      "display": "Base URL(optional)",
+      "type": "input"
+    },
+    {
+      "key": "system_prompt",
+      "display": "System Prompt(optional)",
+      "type": "input"
+    }
+  ]
+}
